@@ -2,8 +2,13 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #E6E6FA;
 }
 
 main {
     flex: 1 0 auto;
+}
+
+nav{
+	background-color: #191970;
 }
