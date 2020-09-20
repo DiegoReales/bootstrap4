@@ -3,8 +3,8 @@ main {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #f5f5f5;
 }
 
@@ -17,7 +17,7 @@ main {
 
 .form-label-group {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .form-label-group input,

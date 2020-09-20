@@ -1,45 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrados</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/floating-labels.css" rel="stylesheet">
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.html">
-          <img class="d-block mx-auto" src="./img/casa.png" alt="" width="30" height="30">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Iniciar sesión</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="register.html">Registrarse</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="registered.html">Usuarios registrados</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-          </form>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrados</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/floating-labels.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img class="d-block mx-auto" src="./img/casa.png" alt="" width="30" height="30">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="registered.html">Lista Usuarios</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Iniciar sesión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h2 class="mb-4">LISTA DE USUARIOS</h2>
+      </div>
+      <div class="card">
+        <div class="card-body p-0">
+          <div class="row">
+            <div class="col">
+              <div class="table-responsive">
+                <table class="table table-sm table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Correo</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Sheldon</td>
+                      <td>Cooper</td>
+                      <td>scooper@cuc.edu.co</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Leonard</td>
+                      <td>Hofstadter</td>
+                      <td>lhofstadter@cuc.edu.co</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Howard</td>
+                      <td>Wolowitz</td>
+                      <td>hwolowitz@cuc.edu.co</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Rajesh</td>
+                      <td>Koothrappali</td>
+                      <td>rkoothrappali@cuc.edu.co</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Barry</td>
+                      <td>Kripke</td>
+                      <td>bkripke@cuc.edu.co</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Leslie</td>
+                      <td>Winkle</td>
+                      <td>lwinkle@cuc.edu.co</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
-      </nav>
-    </header>
-    <main></main>
-    <footer class="text-muted text-center text-small">
-      <p>footer</p>
-    </footer>
-  </body>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+          <h6>Acerca de Nosotros</h6>
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ea commodi illum maiores numquam
+            aliquam possimus eveniet ex id modi exercitationem, laborum consequuntur dolor adipisci at debitis
+            perspiciatis vero aut.
+          </p>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+          <h6>Enlaces Rapidos</h6>
+          <ul class="footer-links">
+            <li><a href="login.html">Iniciar Sesión</a></li>
+            <li><a href="register.html">Registrarse</a></li>
+            <li><a href="registered.html">Lista Usuarios</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 Todos los derechos reservados</p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
